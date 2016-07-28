@@ -7,9 +7,9 @@ This plugin extends nutch [HtmlParseFilter](https://wiki.apache.org/nutch/Writin
 
  If you are crawling the site using apache nutch 1.x, nutch fetches the html content and save them in its hadoop cluster. Though you can read the segments and retrive the html dumps but that will be one complete html dump file. This plugin saves individual html files on your local drive.
  
- ## Configurations
+## Configurations
  
- ### Add plugin information in nutch-site.xml
+### Add plugin information in nutch-site.xml
 
 ```xml
 <?xml version="1.0"?>
