@@ -27,8 +27,8 @@ in the `NUTCH_DIR/src/plugin` edit _build.xml_ file and add our plugin details.
 
 __in build.xml:__
 
-- Under the <target name="deploy"> tag, add <ant dir="fetch-page" target="deploy"/>
-- Under the <target name="clean"> tag, add <ant dir="fetch-page" target="clean"/>
+- Under the \<target name="deploy"\> tag, add \<ant dir="fetch-page" target="deploy"/\>
+- Under the \<target name="clean"\> tag, add \<ant dir="fetch-page" target="clean"/\>
  
 ### Add plugin information in nutch-site.xml
 
